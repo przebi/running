@@ -1,5 +1,5 @@
 #!/bin/bash
-# Deploy viewer.html → https://przebi.github.io/maraton-chicago-2026/
+# Deploy viewer.html → https://przebi.github.io/running/
 # GitHub Pages auto-deploys from docs/ folder on main branch.
 # Usage: ./scripts/deploy-viewer.sh
 
@@ -25,4 +25,4 @@ fi
 # Push to main → GitHub Pages auto-rebuild
 echo "[3/3] Pushing to main (GitHub Pages auto-rebuild ~30-60s)..."
 git push 2>&1 | tail -3
-echo "Live URL: https://przebi.github.io/maraton-chicago-2026/"
+echo "Live URL: https://przebi.github.io/running/"

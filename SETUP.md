@@ -18,7 +18,7 @@ Zapisz te wartości — potrzebne w kroku 3.
 ## 2. Klonowanie Strava MCP
 
 ```bash
-cd ~/projects/maraton-chicago-2026
+cd ~/projects/running
 git clone https://github.com/r-huijts/strava-mcp.git
 cd strava-mcp
 npm install
